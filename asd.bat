@@ -1,0 +1,2 @@
+ffmpeg.exe -f gdigrab -s 1920x1080 -i desktop -f mpeg1video -b 8000k -r 30 http://localhost:8082/yourpassword/1920/1080/
+:ffmpeg.exe -i ./out.mpg -s 800x600 -f mpeg1video -b 800k -r 30 http://localhost:8082/yourpassword/800/600/
